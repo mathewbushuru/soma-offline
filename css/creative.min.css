@@ -59,7 +59,7 @@ section{
     color:#F05F40;font-weight:700;text-transform:uppercase
 }
 .navbar-brand-white{
-  color: #fff;font-weight:700;text-transform:uppercase;font-size: 28px;
+  color: #fff;font-weight:700;text-transform:uppercase;font-size: 24px;
 }
 .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{
     color:#eb3812
