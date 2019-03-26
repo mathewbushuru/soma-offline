@@ -1,3 +1,3 @@
 # soma-offline
 You can learn anything, offline
-https://www.soma-offline.com
+www.soma-offline.com
