@@ -14,6 +14,11 @@ body{
 .btn,.navbar-default,.navbar-default .navbar-header .navbar-brand,h1,h2,h3,h4,h5,h6{
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
 }
+.navbar-brand-white{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
 hr{
     border-color:#F05F40;border-width:3px;max-width:50px
 }
