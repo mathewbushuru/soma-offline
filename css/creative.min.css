@@ -29,7 +29,8 @@ a{
     transition:all .35s;color:#F05F40
 }
 a:focus,a:hover{
-    color:#eb3812
+    color:#777;
+    text-decoration: none;
 }
 p{
     font-size:16px;line-height:1.5;margin-bottom:20px
@@ -105,6 +106,9 @@ header{min-height:auto;-webkit-background-size:cover;-moz-background-size:cover;
     -o-background-size:cover;background-position:center;
     background-image:url(../img/side-imac.jpg);color:#fff
 }
+.navbar-fixed-orange{
+    background-color: #F05F40;
+}
 header .header-content{padding:100px 15px}
 header .header-content .header-content-inner h1{font-weight:700;text-transform:uppercase;margin-top:0;margin-bottom:0;
     font-size:30px
@@ -159,4 +163,3 @@ header .header-content .header-content-inner p{font-size:18px;max-width:80%;marg
 .btn-primary .badge{color:#F05F40;background-color:#fff}
 .btn{border:none;border-radius:300px;font-weight:700;text-transform:uppercase}
 .btn-xl{padding:15px 30px}::-moz-selection{color:#fff;text-shadow:none;background:#222}::selection{color:#fff;text-shadow:none;background:#222}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}
-
