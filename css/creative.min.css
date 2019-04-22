@@ -88,7 +88,7 @@ section{
 }
 @media (min-width:768px){.navbar-default{background-color:transparent;border-color:rgba(255,255,255,.3)}
 .navbar-default .navbar-header {
-    color:rgba(255,255,255,.7)
+    /*color:rgba(255,255,255,.7)*/
 }
 .navbar-brand{
     color: #F05F40;
@@ -162,6 +162,34 @@ header .header-content .header-content-inner p{font-size:18px;max-width:80%;marg
 .btn-primary .badge{color:#F05F40;background-color:#fff}
 .btn{border:none;border-radius:300px;font-weight:700;text-transform:uppercase}
 .btn-xl{padding:15px 30px}::-moz-selection{color:#fff;text-shadow:none;background:#222}::selection{color:#fff;text-shadow:none;background:#222}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}
+
 .navbar-fixed-orange{
     background-color: #F05F40; 
+}
+
+.kcse-img{
+    margin-left: 75px;
+    margin-right: 75 px;
+}
+#services span{
+    color: #F05F40;
+}
+@media screen and (max-width:800px){
+    #services span{
+        display: none;
+    }
+    #services .my-4{
+        text-align: center;
+        margin-top: 0;
+    }
+    #services .kcse-btn{
+       margin-left: 120px;
+    }
+    #services .kcse-h3{
+        text-align: center;
+    }
+    .kcse-img{
+        width: 60%;
+        height: 60%;
+    }
 }
